@@ -82,7 +82,7 @@ if 'b' in S:
     time.sleep(2)
     os.system(' clear ')
     
-    os.system(' git clone https://github.com/Taguar258/Raven-Storm.git && cd Raven-Storm && pip install -r requirements.txt && python3 main.py
+    os.system(' git clone https://github.com/Taguar258/Raven-Storm.git && cd Raven-Storm 
   
 if 'c' in S:
     time.sleep(2)
