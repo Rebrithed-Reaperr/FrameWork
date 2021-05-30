@@ -61,7 +61,10 @@ if '99' or '66' in X:
        print("option e Nmap:                                                                        ")
        print("option f nikto:                                                                       ")
        print("......................................................................................")
-
+       print("option z credits:                                                                     ")
+       print("......................................................................................")
+       
+       
 S = str(input("place option here::")) 
 
 if 'a' in S:
@@ -99,5 +102,39 @@ if 'g' in S:
      os.system(' clear ')
      
      os.system(' git clone https://github.com/sullo/nikto && cd nikto && cd program ')
-     
        
+       
+if 'z' in S:
+    time.sleep(2)
+    os.system(' clear ')
+    
+       print("                       WHO ARE YOU?                  ")
+       print("                      :>3qKKKKKKKq3>:                ")
+       print("                  ';CpKKKKKKKKKKKKKKKpC;'            ")
+       print("              -iPKKKKKKKKKKKKKKKKKKKKKKKPi-          ")
+       print("          `~v]KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK]v~`    ")
+       print("       ,rwKKKKKKKKKKKKKPv;,:'-':,;vPKKKKKKKKKKKKKwr, ")
+       print("      !KKKKKKKKKKKKKKK/             !KKKKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKKKf               CKKKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKKp-               -qKKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKK>"               "\KKKKKKKKKKKKK!")
+       print("      !KKKKKKKw;,_'-                   .-:,wKKKKKKK! ")
+       print("      !KKKKKKKKhi*                      KKKKKKKKKKKK ")
+       print("      !KKKKKKKKKKKKK;                 ;KKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKK2>'             '>2KKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKKKKZ             ZKKKKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKKKKK5             eKKKKKKKKKKKKKKK!")
+       print("      !KKKKKKKKKKKqC;-               -;CqKKKKKKKKKKK!")
+       print("      <KKKKKKKKkr,                       ,rSKKKKKKKK<")
+       print("       -v]qj;-                             -;jq]v-   ")
+       print(" follow these awesome people who helped make:        ")
+       print("instagram. pwn.doxgod                                ")
+       print("instagram. no_enough_data                            ")
+       print("instagram. re43p3r                                   ")
+       print(".....................................................")
+       print("                     NOTICE                          ")
+       print(".....................................................")
+       print(" IF YOU USE THIS TOOL KEEP IN MIND WHAT YOU DO. YOU ARE RESPONISIBLE FOR WHAT YOU DO.")
+       
+   
+    
