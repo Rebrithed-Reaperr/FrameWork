@@ -63,9 +63,9 @@ if '99' or '66' in X:
        print("......................................................................................")
        print("                                 Installation                                         ")
        print("......................................................................................")
-       print("option 99 Installation:                                                               ")
+       print("option 66 Installation:                                                               ")
        
-if '99' in S:
+if '66' in S:
     os.system(' clear ')
     
     os.system(' sudo apt update && sudo apt full-upgrade && sudo apt install perl python3 pip git python2 ')
