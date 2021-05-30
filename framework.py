@@ -51,5 +51,67 @@ if '99' or '66' in X:
        print("option a DDoS-Ripper:                                                                 ")
        print("option b Raven-Storm:                                                                 ")
        print("option c iStorm:                                                                      ")
-       print("option d FL00D:                                                                       ")
+       print("......................................................................................")
+       print("                                Tracking Section                                      ")
+       print("......................................................................................")
+       print("option d track-ip:                                                                    ")
+       print("option e IP-Tracker:                                                                  ")
+       print("......................................................................................")
+       print("                                 Port Scanning                                        ")
+       print("......................................................................................")
+       print("option f Nmap:                                                                        ")
+       print("option g nikto:                                                                       ")
+       print("......................................................................................")
+       print("                                 Installation                                         ")
+       print("......................................................................................")
+       print("option 99 Installation:                                                               ")
+       
+if '99' in S:
+    os.system(' clear ')
+    
+    os.system(' sudo apt update && sudo apt full-upgrade && sudo apt install perl python3 pip git python2 ')
+       
+       
+if 'a' in S:
+    time.sleep(2)
+    os.system(' clear ')
+    
+    os.system(' git clone https://github.com/Palahsu/DDoS-Ripper.git && cd DDoS-Ripper && python3 DRipper.py ')
+    
+if 'b' in S:
+    time.sleep(2)
+    os.system(' clear ')
+    
+    os.system(' git clone https://github.com/Taguar258/Raven-Storm.git && cd Raven-Storm && pip install -r requirements.txt && python3 main.python3
+  
+if 'c' in S:
+    time.sleep(2)
+    os.system(' clear ')
+    
+    os.system(' git clone https://github.com/RI0TS3C/iStorm && cd iStorm && python2 iStorm.py
+    
+if 'd' in S:
+    time.sleep(2)
+    os.system(' clear ')
+   
+   os.system(' git clone https://github.com/htr-tech/track-ip.git && cd track-ip && chmod +x * && ./trackip ')
+   
+if 'e' in S:
+    time.sleep(2)
+    os.system(' clear ')
+    
+    os.system (' git clone https://github.com/anonymousproo/IP-Tracker && cd IP-Tracker && python2 IP-Tracker.py ')
+    
+if 'f' in S:
+     time.sleep(2)
+     os.system(' clear ')
+     
+     os.system(' sudo apt install nmap -y ')
+     
+if 'g' in S:
+     time.sleep(2)
+     os.system(' clear ')
+     
+     os.system(' git clone https://github.com/sullo/nikto && cd nikto && cd program ')
+     
        
