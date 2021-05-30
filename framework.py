@@ -94,7 +94,7 @@ if 'd' in S:
     time.sleep(2)
     os.system(' clear ')
    
-   os.system(' git clone https://github.com/htr-tech/track-ip.git && cd track-ip && chmod +x * && ./trackip ')
+   os.system(' git clone https://github.com/htr-tech/track-ip.git && cd track-ip && ./trackip ')
    
 if 'e' in S:
     time.sleep(2)
