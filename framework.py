@@ -72,7 +72,7 @@ if 'a' in S:
     os.system(' clear ')
     O = str(input(" whats the IP?:"))
     V = str(input(" whats the port?:"))
-    os.system('f python3 DRipper.py -s {O} -p {V}
+    os.system('f python3 DRipper.py -s {O} -p {V} ')
     
 if 'b' in S:
     time.sleep(2)
