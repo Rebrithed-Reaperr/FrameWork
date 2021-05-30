@@ -54,13 +54,12 @@ if '99' or '66' in X:
        print("......................................................................................")
        print("                                Tracking Section                                      ")
        print("......................................................................................")
-       print("option d track-ip:                                                                    ")
-       print("option e IP-Tracker:                                                                  ")
+       print("option d IP-Tracker:                                                                  ")
        print("......................................................................................")
        print("                                 Port Scanning                                        ")
        print("......................................................................................")
-       print("option f Nmap:                                                                        ")
-       print("option g nikto:                                                                       ")
+       print("option e Nmap:                                                                        ")
+       print("option f nikto:                                                                       ")
        print("......................................................................................")
        print("                                 Installation                                         ")
        print("......................................................................................")
@@ -89,12 +88,6 @@ if 'c' in S:
     os.system(' clear ')
     
     os.system(' git clone https://github.com/RI0TS3C/iStorm && cd iStorm && python2 iStorm.py ')
-    
-if 'd' in S:
-    time.sleep(2)
-    os.system(' clear ')
-   
-   os.system(' git clone https://github.com/htr-tech/track-ip.git && cd track-ip && ./trackip ')
    
 if 'e' in S:
     time.sleep(2)
