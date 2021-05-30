@@ -82,13 +82,13 @@ if 'b' in S:
     time.sleep(2)
     os.system(' clear ')
     
-    os.system(' git clone https://github.com/Taguar258/Raven-Storm.git && cd Raven-Storm 
+    os.system(' git clone https://github.com/Taguar258/Raven-Storm.git && cd Raven-Storm && pip install -r requirements.txt && python3 main.py ')
   
 if 'c' in S:
     time.sleep(2)
     os.system(' clear ')
     
-    os.system(' git clone https://github.com/RI0TS3C/iStorm && cd iStorm && python2 iStorm.py
+    os.system(' git clone https://github.com/RI0TS3C/iStorm && cd iStorm && python2 iStorm.py ')
     
 if 'd' in S:
     time.sleep(2)
