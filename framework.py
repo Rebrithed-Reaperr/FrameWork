@@ -61,7 +61,9 @@ if '99' or '66' in X:
        print("option e Nmap:                                                                        ")
        print("option f nikto:                                                                       ")
        print("......................................................................................")
-       
+
+S = str(input("place option here")) 
+
 if 'a' in S:
     time.sleep(2)
     os.system(' clear ')
