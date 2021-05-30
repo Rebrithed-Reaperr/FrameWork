@@ -62,7 +62,7 @@ if '99' or '66' in X:
        print("option f nikto:                                                                       ")
        print("......................................................................................")
 
-S = str(input("place option here")) 
+S = str(input("place option here::")) 
 
 if 'a' in S:
     time.sleep(2)
