@@ -7,7 +7,7 @@ X = str(input("type 99 to start:"))
 
 if '99' or '66' in X:
     os.system(' clear ')
-     print("                       WHO ARE YOU?                  ")
+       print("                       WHO ARE YOU?                  ")
        print("                      :>3qKKKKKKKq3>:                ")
        print("                  ';CpKKKKKKKKKKKKKKKpC;'            ")
        print("              -iPKKKKKKKKKKKKKKKKKKKKKKKPi-          ")
